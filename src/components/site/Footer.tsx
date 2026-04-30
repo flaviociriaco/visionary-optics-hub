@@ -11,11 +11,12 @@ export function Footer() {
                 <Eye className="h-5 w-5" strokeWidth={1.5} />
               </span>
               <span className="font-serif text-2xl">
-                Lumière <span className="text-gradient-gold">Ótica</span>
+                Ótica Guarulux<span className="text-gradient-gold">Ótica</span>
               </span>
             </div>
             <p className="mt-5 max-w-md text-sm text-primary-foreground/70 leading-relaxed">
-              Há mais de 15 anos cuidando do seu olhar com produtos premium e atendimento personalizado.
+              Há mais de 15 anos cuidando do seu olhar com produtos premium e atendimento
+              personalizado.
             </p>
             <div className="mt-6 flex gap-3">
               {[Instagram, Facebook, Youtube].map((I, i) => (
@@ -50,8 +51,10 @@ export function Footer() {
             <div className="mt-5 flex items-start gap-3 text-sm text-primary-foreground/80">
               <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
               <address className="not-italic leading-relaxed">
-                Av. Salgado Filho, 1234<br />
-                Centro — Guarulhos, SP<br />
+                Av. Salgado Filho, 1234
+                <br />
+                Centro — Guarulhos, SP
+                <br />
                 CEP 07115-000
               </address>
             </div>
@@ -59,7 +62,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-primary-foreground/50">
-          <p>© {new Date().getFullYear()} Lumière Ótica. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Ótica GuaruluxÓtica. Todos os direitos reservados.</p>
           <p>Feito com cuidado para você enxergar o melhor.</p>
         </div>
       </div>

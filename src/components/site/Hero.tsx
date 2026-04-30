@@ -3,7 +3,11 @@ import heroImg from "@/assets/hero-glasses.jpg";
 
 export function Hero() {
   return (
-    <section id="top" className="relative pt-28 md:pt-36 pb-20 md:pb-28 overflow-hidden" style={{ background: "var(--gradient-hero)" }}>
+    <section
+      id="top"
+      className="relative pt-28 md:pt-36 pb-20 md:pb-28 overflow-hidden"
+      style={{ background: "var(--gradient-hero)" }}
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div className="reveal">
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-4 py-1.5 text-xs tracking-widest uppercase text-muted-foreground">
@@ -15,7 +19,8 @@ export function Hero() {
             encontra a <span className="text-gradient-gold italic">elegância</span>.
           </h1>
           <p className="mt-6 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            Armações exclusivas, lentes de alta tecnologia e um atendimento sob medida. Descubra a ótica que valoriza cada detalhe do seu estilo.
+            Armações exclusivas, lentes de alta tecnologia e um atendimento sob medida. Descubra a
+            ótica que valoriza cada detalhe do seu estilo.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
@@ -27,17 +32,26 @@ export function Hero() {
               Agendar Exame Gratuito
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a href="#colecoes" className="text-sm font-medium text-primary border-b border-accent/50 hover:border-accent pb-1 transition-colors">
+            <a
+              href="#colecoes"
+              className="text-sm font-medium text-primary border-b border-accent/50 hover:border-accent pb-1 transition-colors"
+            >
               Ver coleções
             </a>
           </div>
 
           <div className="mt-12 flex items-center gap-8 text-xs text-muted-foreground">
-            <div><div className="font-serif text-2xl text-primary">+15</div>anos de experiência</div>
+            <div>
+              <div className="font-serif text-2xl text-primary">+15</div>anos de experiência
+            </div>
             <div className="h-8 w-px bg-border" />
-            <div><div className="font-serif text-2xl text-primary">+8k</div>clientes atendidos</div>
+            <div>
+              <div className="font-serif text-2xl text-primary">+8k</div>clientes atendidos
+            </div>
             <div className="h-8 w-px bg-border" />
-            <div><div className="font-serif text-2xl text-primary">5★</div>avaliação Google</div>
+            <div>
+              <div className="font-serif text-2xl text-primary">5★</div>avaliação Google
+            </div>
           </div>
         </div>
 

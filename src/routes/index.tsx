@@ -12,14 +12,18 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Lumière Ótica — Óculos de luxo e lentes premium em Guarulhos" },
+      { title: "Ótica GuaruluxÓtica — Óculos de luxo e lentes premium em Guarulhos" },
       {
         name: "description",
         content:
           "Ótica premium em Guarulhos com armações exclusivas, lentes de tecnologia e laboratório próprio. Agende seu exame de vista pelo WhatsApp.",
       },
-      { property: "og:title", content: "Lumière Ótica — Elegância para o seu olhar" },
-      { property: "og:description", content: "Coleções selecionadas, lentes premium e atendimento personalizado em Guarulhos, SP." },
+      { property: "og:title", content: "Ótica GuaruluxÓtica — Elegância para o seu olhar" },
+      {
+        property: "og:description",
+        content:
+          "Coleções selecionadas, lentes premium e atendimento personalizado em Guarulhos, SP.",
+      },
     ],
   }),
 });

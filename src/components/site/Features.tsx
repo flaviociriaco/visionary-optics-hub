@@ -1,9 +1,17 @@
 import { FlaskConical, Truck, ShieldCheck, Palette } from "lucide-react";
 
 const features = [
-  { icon: FlaskConical, title: "Laboratório Próprio", desc: "Lentes montadas com precisão sob nosso controle." },
+  {
+    icon: FlaskConical,
+    title: "Laboratório Próprio",
+    desc: "Lentes montadas com precisão sob nosso controle.",
+  },
   { icon: Truck, title: "Entrega Rápida", desc: "Seus óculos prontos em até 48 horas." },
-  { icon: ShieldCheck, title: "Garantia de 1 Ano", desc: "Cobertura total contra defeitos de fabricação." },
+  {
+    icon: ShieldCheck,
+    title: "Garantia de 1 Ano",
+    desc: "Cobertura total contra defeitos de fabricação.",
+  },
   { icon: Palette, title: "Estilo Personalizado", desc: "Consultoria visagista para o seu rosto." },
 ];
 
@@ -12,8 +20,12 @@ export function Features() {
     <section id="diferenciais" className="py-24 md:py-32 bg-secondary/60">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="text-center max-w-2xl mx-auto reveal">
-          <span className="text-xs tracking-[0.2em] uppercase text-accent">Por que nos escolher</span>
-          <h2 className="mt-3 font-serif text-4xl md:text-5xl text-primary">Excelência em cada detalhe</h2>
+          <span className="text-xs tracking-[0.2em] uppercase text-accent">
+            Por que nos escolher
+          </span>
+          <h2 className="mt-3 font-serif text-4xl md:text-5xl text-primary">
+            Excelência em cada detalhe
+          </h2>
         </div>
 
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

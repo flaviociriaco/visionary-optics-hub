@@ -13,7 +13,9 @@ export function Header() {
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [open]);
 
   return (
@@ -24,7 +26,7 @@ export function Header() {
             <Eye className="h-5 w-5" strokeWidth={1.5} />
           </span>
           <span className="font-serif text-xl md:text-2xl tracking-tight">
-            Lumière <span className="text-gradient-gold">Ótica</span>
+            Ótica Guarulux<span className="text-gradient-gold">Ótica</span>
           </span>
         </a>
 
@@ -56,17 +58,28 @@ export function Header() {
           className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full text-primary"
         >
           <span className="relative h-5 w-5">
-            <Menu className={`absolute inset-0 transition-all duration-300 ${open ? "opacity-0 rotate-90" : "opacity-100"}`} />
-            <X className={`absolute inset-0 transition-all duration-300 ${open ? "opacity-100" : "opacity-0 -rotate-90"}`} />
+            <Menu
+              className={`absolute inset-0 transition-all duration-300 ${open ? "opacity-0 rotate-90" : "opacity-100"}`}
+            />
+            <X
+              className={`absolute inset-0 transition-all duration-300 ${open ? "opacity-100" : "opacity-0 -rotate-90"}`}
+            />
           </span>
         </button>
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden overflow-hidden transition-[max-height] duration-500 ease-out ${open ? "max-h-96" : "max-h-0"}`}>
+      <div
+        className={`md:hidden overflow-hidden transition-[max-height] duration-500 ease-out ${open ? "max-h-96" : "max-h-0"}`}
+      >
         <div className="px-6 pb-6 pt-2 flex flex-col gap-4 bg-background/90 backdrop-blur-md border-t border-border">
           {links.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-base text-foreground/90 py-1">
+            <a
+              key={l.href}
+              href={l.href}
+              onClick={() => setOpen(false)}
+              className="text-base text-foreground/90 py-1"
+            >
               {l.label}
             </a>
           ))}
