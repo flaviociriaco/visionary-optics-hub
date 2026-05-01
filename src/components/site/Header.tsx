@@ -26,7 +26,7 @@ export function Header() {
             <Eye className="h-5 w-5" strokeWidth={1.5} />
           </span>
           <span className="font-serif text-xl md:text-2xl tracking-tight">
-            Ótica Guarulux<span className="text-gradient-gold">Ótica</span>
+            Ótica Guarulux<span className="text-gradient-gold"> Ótica</span>
           </span>
         </a>
 
@@ -43,7 +43,7 @@ export function Header() {
         </nav>
 
         <a
-          href="https://wa.me/5511999999999?text=Olá!%20Quero%20agendar%20um%20exame%20de%20vista."
+          href="https://wa.me/5511983434920?text=Olá!%20Quero%20agendar%20um%20exame%20de%20vista."
           target="_blank"
           rel="noopener"
           className="hidden md:inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-navy-deep transition-colors shadow-card"
@@ -84,7 +84,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5511983434920"
             target="_blank"
             rel="noopener"
             className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-3 text-sm font-medium"

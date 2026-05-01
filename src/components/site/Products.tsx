@@ -31,7 +31,7 @@ export function Products() {
           {items.map((it, i) => (
             <a
               key={it.title}
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5511983434920"
               target="_blank"
               rel="noopener"
               className="group relative reveal"

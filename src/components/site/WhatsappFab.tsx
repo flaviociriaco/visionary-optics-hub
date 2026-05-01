@@ -1,7 +1,7 @@
 export function WhatsappFab() {
   return (
     <a
-      href="https://wa.me/5511999999999?text=Olá!%20Vim%20pelo%20site%20da%20Lumière%20Ótica."
+      href="https://wa.me/5511983434920?text=Olá!%20Vim%20pelo%20site%20da%20Lumière%20Ótica."
       target="_blank"
       rel="noopener"
       aria-label="Falar no WhatsApp"

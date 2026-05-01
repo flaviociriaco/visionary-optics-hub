@@ -24,7 +24,7 @@ export function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
-              href="https://wa.me/5511999999999?text=Olá!%20Quero%20agendar%20um%20exame."
+              href="https://wa.me/5511983434920?text=Olá!%20Quero%20agendar%20um%20exame."
               target="_blank"
               rel="noopener"
               className="group inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-7 py-4 text-sm font-medium shadow-elegant hover:shadow-gold hover:-translate-y-0.5 transition-all"
@@ -56,8 +56,8 @@ export function Hero() {
         </div>
 
         <div className="relative reveal">
-          <div className="absolute -inset-8 bg-gradient-to-tr from-accent/20 via-transparent to-primary/10 rounded-[3rem] blur-2xl" />
-          <div className="relative rounded-[2rem] overflow-hidden shadow-elegant bg-cream">
+          <div className="absolute -inset-8 bg-linear-to-tr from-accent/20 via-transparent to-primary/10 rounded-[3rem] blur-2xl" />
+          <div className="relative rounded-4xl overflow-hidden shadow-elegant bg-cream">
             <img
               src={heroImg}
               alt="Óculos de luxo em armação acetato e dourado"
